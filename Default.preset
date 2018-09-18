@@ -33,18 +33,18 @@ DisableWAPPush               # EnableWAPPush
 # SetUACLow                  # SetUACHigh
 # EnableSharingMappedDrives  # DisableSharingMappedDrives
 DisableAdminShares           # EnableAdminShares
-# DisableSMB1                # EnableSMB1
+DisableSMB1                  # EnableSMB1
 # DisableSMBServer           # EnableSMBServer
 # DisableLLMNR               # EnableLLMNR
 # DisableNCSIProbe           # EnableNCSIProbe
-SetCurrentNetworkPrivate     # SetCurrentNetworkPublic
-# SetUnknownNetworksPrivate  # SetUnknownNetworksPublic
+# SetCurrentNetworkPrivate   # SetCurrentNetworkPublic
+SetUnknownNetworksPublic     # SetUnknownNetworksPrivate
 # DisableNetDevicesAutoInst  # EnableNetDevicesAutoInst
 # EnableCtrldFolderAccess    # DisableCtrldFolderAccess
 # DisableFirewall            # EnableFirewall
 # DisableDefender            # EnableDefender
 # DisableDefenderCloud       # EnableDefenderCloud
-EnableF8BootMenu             # DisableF8BootMenu
+DisableF8BootMenu            # EnableF8BootMenu
 SetDEPOptOut                 # SetDEPOptIn
 # EnableCIMemoryIntegrity    # DisableCIMemoryIntegrity
 DisableScriptHost            # EnableScriptHost
@@ -72,31 +72,31 @@ DisableAutorun               # EnableAutorun
 # DisableFastStartup         # EnableFastStartup
 
 ### UI Tweaks ###
-DisableActionCenter          # EnableActionCenter
+EnableActionCenter           # DisableActionCenter
 HideAccountProtectionWarn    # ShowAccountProtectionWarn
-DisableLockScreen            # EnableLockScreen
+EnableLockScreen             # DisableLockScreen
 # DisableLockScreenRS1       # EnableLockScreenRS1
 HideNetworkFromLockScreen    # ShowNetworkOnLockScreen
-HideShutdownFromLockScreen   # ShowShutdownOnLockScreen
+ShowShutdownOnLockScreen     # HideShutdownFromLockScreen 
 DisableStickyKeys            # EnableStickyKeys
 ShowTaskManagerDetails       # HideTaskManagerDetails
 ShowFileOperationsDetails    # HideFileOperationsDetails
 # EnableFileDeleteConfirm    # DisableFileDeleteConfirm
 HideTaskbarSearch            # ShowTaskbarSearchIcon       # ShowTaskbarSearchBox
 HideTaskView                 # ShowTaskView
-ShowSmallTaskbarIcons        # ShowLargeTaskbarIcons
+ShowLargeTaskbarIcons        # ShowSmallTaskbarIcons
 SetTaskbarCombineWhenFull    # SetTaskbarCombineNever      # SetTaskbarCombineAlways
 HideTaskbarPeopleIcon        # ShowTaskbarPeopleIcon
-ShowTrayIcons                # HideTrayIcons
+HideTrayIcons                # ShowTrayIcons
 DisableSearchAppInStore      # EnableSearchAppInStore
 DisableNewAppPrompt          # EnableNewAppPrompt
 # HideRecentlyAddedApps      # ShowRecentlyAddedApps
 # SetControlPanelSmallIcons  # SetControlPanelLargeIcons   # SetControlPanelCategories
-SetVisualFXPerformance       # SetVisualFXAppearance
-# AddENKeyboard              # RemoveENKeyboard
+SetVisualFXAppearance        # SetVisualFXPerformance
+RemoveENKeyboard             # AddENKeyboard
 # EnableNumlock              # DisableNumlock
 # SetSoundSchemeNone         # SetSoundSchemeDefault
-# DisableStartupSound        # EnableStartupSound
+DisableStartupSound          # EnableStartupSound
 # DisableChangingSoundScheme # EnableChangingSoundScheme
 
 ### Explorer UI Tweaks ###
@@ -110,13 +110,13 @@ HideSyncNotifications        # ShowSyncNotifications
 HideRecentShortcuts          # ShowRecentShortcuts
 SetExplorerThisPC            # SetExplorerQuickAccess
 HideQuickAccess              # ShowQuickAccess
-ShowThisPCOnDesktop          # HideThisPCFromDesktop
+HideThisPCFromDesktop        # ShowThisPCOnDesktop
 # ShowUserFolderOnDesktop    # HideUserFolderFromDesktop
-HideDesktopFromThisPC        # ShowDesktopInThisPC
+ShowDesktopInThisPC          # HideDesktopFromThisPC
 # HideDesktopFromExplorer    # ShowDesktopInExplorer
 HideDocumentsFromThisPC      # ShowDocumentsInThisPC
 # HideDocumentsFromExplorer  # ShowDocumentsInExplorer
-HideDownloadsFromThisPC      # ShowDownloadsInThisPC
+ShowDownloadsInThisPC        # HideDownloadsFromThisPC
 # HideDownloadsFromExplorer  # ShowDownloadsInExplorer
 HideMusicFromThisPC          # ShowMusicInThisPC
 # HideMusicFromExplorer      # ShowMusicInExplorer
@@ -142,7 +142,7 @@ DisableEdgeShortcutCreation  # EnableEdgeShortcutCreation
 # UninstallMediaPlayer       # InstallMediaPlayer
 # UninstallInternetExplorer  # InstallInternetExplorer
 # UninstallWorkFolders       # InstallWorkFolders
-# InstallLinuxSubsystem      # UninstallLinuxSubsystem
+InstallLinuxSubsystem        # UninstallLinuxSubsystem
 # InstallHyperV              # UninstallHyperV
 SetPhotoViewerAssociation    # UnsetPhotoViewerAssociation
 AddPhotoViewerOpenWith       # RemovePhotoViewerOpenWith
