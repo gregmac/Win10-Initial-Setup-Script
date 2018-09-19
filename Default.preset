@@ -109,7 +109,7 @@ ShowHiddenFiles              # HideHiddenFiles
 HideSyncNotifications        # ShowSyncNotifications
 HideRecentShortcuts          # ShowRecentShortcuts
 SetExplorerThisPC            # SetExplorerQuickAccess
-HideQuickAccess              # ShowQuickAccess
+ShowQuickAccess              # HideQuickAccess
 HideThisPCFromDesktop        # ShowThisPCOnDesktop
 # ShowUserFolderOnDesktop    # HideUserFolderFromDesktop
 ShowDesktopInThisPC          # HideDesktopFromThisPC
